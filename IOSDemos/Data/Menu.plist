@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>富文本</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>语音合成</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>播放本地和网络音频文件</string>
+	</dict>
+</array>
+</plist>
