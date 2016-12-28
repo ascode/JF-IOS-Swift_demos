@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE28BC5A1E13E23100E28350 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC591E13E23100E28350 /* README.md */; };
 		EE78A7951E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A7941E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift */; };
 		EE78A7971E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A7961E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift */; };
 		EE78A7991E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A7981E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE28BC591E13E23100E28350 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EE78A7941E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerDemoView.swift; sourceTree = "<group>"; };
 		EE78A7961E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerDemoDelegate.swift; sourceTree = "<group>"; };
 		EE78A7981E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerDemoViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		EEBD7D641E12891C001C3FC6 = {
 			isa = PBXGroup;
 			children = (
+				EE28BC591E13E23100E28350 /* README.md */,
 				EEBD7D6F1E12891C001C3FC6 /* IOSDemos */,
 				EEBD7D871E12891D001C3FC6 /* IOSDemosTests */,
 				EEBD7D921E12891D001C3FC6 /* IOSDemosUITests */,
@@ -355,6 +358,7 @@
 				EEBD7DB21E1295D4001C3FC6 /* FullTextDemoViewController.swift in Sources */,
 				EE78A79D1E13A2560019BAF7 /* PlayVoiceFormNetViewDelegate.swift in Sources */,
 				EEBD7D791E12891C001C3FC6 /* IOSDemos.xcdatamodeld in Sources */,
+				EE28BC5A1E13E23100E28350 /* README.md in Sources */,
 				EE78A79B1E13A2470019BAF7 /* PlayVoiceFormNetView.swift in Sources */,
 				EEBD7DB41E129787001C3FC6 /* FullTextDemoViewDelegate.swift in Sources */,
 				EEBD7DA61E128A12001C3FC6 /* MenusView.swift in Sources */,
