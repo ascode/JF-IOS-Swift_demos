@@ -14,5 +14,17 @@
 		<key>text</key>
 		<string>播放本地和网络音频文件</string>
 	</dict>
+	<dict>
+		<key>text</key>
+		<string>模态/半透明模态窗口</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>局部动画</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>帧动画</string>
+	</dict>
 </array>
 </plist>

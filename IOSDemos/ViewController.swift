@@ -54,6 +54,18 @@ class ViewController: UIViewController, MenusViewDelegate {
                 
             })
         }
+        if self.menuListData._menus[indexPath.row]._menuName! == "模态/半透明模态窗口" {
+            let ttsVC: ModalViewController = ModalViewController()
+            self.present(ttsVC, animated: true, completion: {
+                
+            })
+        }
+        if self.menuListData._menus[indexPath.row]._menuName! == "局部动画" {
+            
+        }
+        if self.menuListData._menus[indexPath.row]._menuName! == "帧动画" {
+            
+        }
     }
 
 }
