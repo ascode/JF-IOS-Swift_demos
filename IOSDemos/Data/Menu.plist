@@ -20,6 +20,10 @@
 	</dict>
 	<dict>
 		<key>text</key>
+		<string>UITableView和TableViewCell的展开</string>
+	</dict>
+	<dict>
+		<key>text</key>
 		<string>局部动画</string>
 	</dict>
 	<dict>

@@ -60,6 +60,12 @@ class ViewController: UIViewController, MenusViewDelegate {
                 
             })
         }
+        if self.menuListData._menus[indexPath.row]._menuName! == "UITableView和TableViewCell的展开" {
+            let ttsVC: UITableViewDemosViewController = UITableViewDemosViewController()
+            self.present(ttsVC, animated: true, completion: {
+                
+            })
+        }
         if self.menuListData._menus[indexPath.row]._menuName! == "局部动画" {
             
         }

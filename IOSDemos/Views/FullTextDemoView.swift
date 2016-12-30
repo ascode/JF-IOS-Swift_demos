@@ -30,10 +30,22 @@ class FullTextDemoView: UIView {
         let klblW: CGFloat = UIScreen.main.bounds.width
         let klblX: CGFloat = 0
         let klblY: CGFloat = UIScreen.main.bounds.height * 0.3
+        var ss = ""
         let s = NSMutableAttributedString(string: "金老大", attributes: [NSLinkAttributeName: "http://www.baidu.com"])
+        ss += "金老大"
         s.append(NSMutableAttributedString(string: ",你需要来点咖啡吗?", attributes: [NSForegroundColorAttributeName: UIColor.black]))
+        ss += ",你需要来点咖啡吗?"
         s.append(NSMutableAttributedString(string: "你是需要咖啡还是茶呢？", attributes: [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 30)]))
+        ss += "你是需要咖啡还是茶呢？"
         s.append(NSMutableAttributedString(string: "我们这的茶很好喝，你需要尝尝吗？", attributes: [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 30), NSForegroundColorAttributeName: UIColor.blue]))
+        ss += "我们这的茶很好喝，你需要尝尝吗？"
+        s.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSMakeRange(5, 2))
+        s.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFont(ofSize: 22), range: NSMakeRange(5, 3))
+        
+        print("\(NSString(string: ss).range(of: "你").location),\(NSString(string: ss).range(of: "你").length)")
+        print("\(NSString(string: ss).range(of: "你", options: NSString.CompareOptions.numeric).location),\(NSString(string: ss).range(of: "你", options: NSString.CompareOptions.numeric).location)")
+        print("\(NSString(string: ss).range(of: "你", options: NSString.CompareOptions.numeric, range: NSMakeRange(0, 5)).location),\(NSString(string: ss).range(of: "你", options: NSString.CompareOptions.numeric, range: NSMakeRange(6 , 15)).location)")
+        
         let lbl: UILabel = UILabel()
         lbl.numberOfLines = 0
         lbl.lineBreakMode = NSLineBreakMode.byCharWrapping
