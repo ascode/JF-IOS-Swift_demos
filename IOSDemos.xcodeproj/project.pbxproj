@@ -24,6 +24,7 @@
 		EE4DE0381E152ABF00837F1D /* CommonTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE0371E152ABF00837F1D /* CommonTableView.swift */; };
 		EE4DE03A1E152AE800837F1D /* CommonTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE0391E152AE800837F1D /* CommonTableViewDelegate.swift */; };
 		EE4DE03C1E15323600837F1D /* CommonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE03B1E15323600837F1D /* CommonTableCell.swift */; };
+		EE4DE04E1E16A81D00837F1D /* InAppPurchase.md in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE04D1E16A81D00837F1D /* InAppPurchase.md */; };
 		EE78A7951E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A7941E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift */; };
 		EE78A7971E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A7961E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift */; };
 		EE78A7991E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A7981E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift */; };
@@ -84,6 +85,7 @@
 		EE4DE0371E152ABF00837F1D /* CommonTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableView.swift; sourceTree = "<group>"; };
 		EE4DE0391E152AE800837F1D /* CommonTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableViewDelegate.swift; sourceTree = "<group>"; };
 		EE4DE03B1E15323600837F1D /* CommonTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableCell.swift; sourceTree = "<group>"; };
+		EE4DE04D1E16A81D00837F1D /* InAppPurchase.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = InAppPurchase.md; sourceTree = "<group>"; };
 		EE78A7941E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerDemoView.swift; sourceTree = "<group>"; };
 		EE78A7961E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerDemoDelegate.swift; sourceTree = "<group>"; };
 		EE78A7981E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerDemoViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		EE4DE0241E15141B00837F1D /* note */ = {
 			isa = PBXGroup;
 			children = (
+				EE4DE04D1E16A81D00837F1D /* InAppPurchase.md */,
 			);
 			path = note;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4DE04E1E16A81D00837F1D /* InAppPurchase.md in Sources */,
 				EE4DE03C1E15323600837F1D /* CommonTableCell.swift in Sources */,
 				EE78A7951E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift in Sources */,
 				EEBD7DAB1E128AAE001C3FC6 /* Menu.swift in Sources */,
