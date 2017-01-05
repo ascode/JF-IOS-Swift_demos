@@ -12,7 +12,7 @@
 
 ---
 ###包含日常编程中常用的任务： 
-1.富文本的使用  
+1.[富文本的使用](/IOSDemos/Controller/FullTextDemoViewController.swift)  
 2.语音合成  
 3.播放本地音频和网络音频  
 4.模态/半透明模态窗口 
