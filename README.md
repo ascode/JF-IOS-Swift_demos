@@ -19,6 +19,7 @@
 5.UITableView和TableViewCell的展开(UITableView的多种应用方式举例)  
 6.局部动画  
 7.帧动画  
+
 ...  
 
 
@@ -36,7 +37,7 @@
  
 
 ### 一些有趣的细节  
-* [设置tableview的滚动条偏移](/note/SomeDetails.md#tableviewscrollindicator)
-
+* [设置tableview的滚动条偏移](/note/SomeDetails.md#tableviewscrollindicator)  
+* [让手机和pad都只支持竖屏](/note/SomeDetails.md#screenvertial)   
 
 如果您对哪方面的示例有需要，可以加qq群讨论：23592723，加群的时候说明是在github上这个项目中看到的信息。
