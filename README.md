@@ -25,8 +25,8 @@
 ---
 ###笔记
 1.[应用内购买](/note/InAppPurchase.md)(InApp Purchase)  
-* [iOS IAP恢复](/note/InAppPurchase.md#restore)  
-* [iOS In-App Purchase中涉及到的货币单位](/note/InAppPurchase.md#money)   
+    * [iOS IAP恢复](/note/InAppPurchase.md#restore)  
+    * [iOS In-App Purchase中涉及到的货币单位](/note/InAppPurchase.md#money)   
 2.[各种framework](/note/framework.md)  
 
 ---
