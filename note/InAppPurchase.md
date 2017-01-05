@@ -32,8 +32,9 @@ SKPaymentQueue.default().restoreCompletedTransactions()
 - (void) restoreTransaction: (SKPaymentTransaction *)transaction  
 
 
+<a name="money" id="money">&nbsp;</a>
 ## iOS In-App Purchase中涉及到的货币单位
-<a name="money">&nbsp;</a>
+
 现在iOS的AppStore上各类应用非常丰富，有付费的也有免费的，而免费的应用也可以支持IAP (In-App Purchase，应用内支付) 。 对于应用内支付，我们有时候希望对用户的支付行为进行记录，甚至通过记录支付过程进行记账，那在这个过程中用户支付所使用的货币类型是我们需要考虑的一个问题，这里我整理一下。  
 
 做过iOS发布的朋友应该都知道，我们在iTunes Connect上发布一款应用的时候会选择发布的国家/地区。这实际上也就是说我们在不同国家地区的AppStore上，可下载安装的应用是不同的，而且这与用户的Apple ID账号有关。  
