@@ -35,5 +35,8 @@
 * [Error：ERROR ITMS-90474: "Invalid Bundle. iPad Multitasking support requires these orientations:](/note/SubmitToAppStore.md)  
  
 
+### 一些有趣的细节  
+* [设置tableview的滚动条偏移](/note/SomeDetails.md#tableviewscrollindicator)
+
 
 如果您对哪方面的示例有需要，可以加qq群讨论：23592723，加群的时候说明是在github上这个项目中看到的信息。

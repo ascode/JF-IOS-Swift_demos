@@ -14,6 +14,7 @@
 		EE28BC631E13EE4400E28350 /* ModalA.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC621E13EE4400E28350 /* ModalA.swift */; };
 		EE28BC661E13F1E700E28350 /* ModalAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC651E13F1E700E28350 /* ModalAViewController.swift */; };
 		EE28BC681E13F25B00E28350 /* ModalADelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC671E13F25B00E28350 /* ModalADelegate.swift */; };
+		EE3BB7011E1E024500303C4D /* SomeDetails.md in Sources */ = {isa = PBXBuildFile; fileRef = EE3BB7001E1E024500303C4D /* SomeDetails.md */; };
 		EE4633F41E1CDA85007D77C7 /* SubmitToAppStore.md in Sources */ = {isa = PBXBuildFile; fileRef = EE4633F31E1CDA85007D77C7 /* SubmitToAppStore.md */; };
 		EE4DE0281E15243500837F1D /* UITableViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE0271E15243500837F1D /* UITableViewDemosViewController.swift */; };
 		EE4DE02B1E1524AB00837F1D /* UITableViewDemos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE02A1E1524AB00837F1D /* UITableViewDemos.swift */; };
@@ -77,6 +78,7 @@
 		EE28BC621E13EE4400E28350 /* ModalA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalA.swift; sourceTree = "<group>"; };
 		EE28BC651E13F1E700E28350 /* ModalAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAViewController.swift; sourceTree = "<group>"; };
 		EE28BC671E13F25B00E28350 /* ModalADelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalADelegate.swift; sourceTree = "<group>"; };
+		EE3BB7001E1E024500303C4D /* SomeDetails.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SomeDetails.md; sourceTree = "<group>"; };
 		EE4633F31E1CDA85007D77C7 /* SubmitToAppStore.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SubmitToAppStore.md; sourceTree = "<group>"; };
 		EE4DE0271E15243500837F1D /* UITableViewDemosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewDemosViewController.swift; sourceTree = "<group>"; };
 		EE4DE02A1E1524AB00837F1D /* UITableViewDemos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewDemos.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				EE4DE04D1E16A81D00837F1D /* InAppPurchase.md */,
 				EE4DE04F1E16B21300837F1D /* framework.md */,
 				EE4633F31E1CDA85007D77C7 /* SubmitToAppStore.md */,
+				EE3BB7001E1E024500303C4D /* SomeDetails.md */,
 			);
 			path = note;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				EEBD7D791E12891C001C3FC6 /* IOSDemos.xcdatamodeld in Sources */,
 				EE28BC5E1E13ED2C00E28350 /* ModalDemosView.swift in Sources */,
 				EE28BC681E13F25B00E28350 /* ModalADelegate.swift in Sources */,
+				EE3BB7011E1E024500303C4D /* SomeDetails.md in Sources */,
 				EE4633F41E1CDA85007D77C7 /* SubmitToAppStore.md in Sources */,
 				EE28BC5A1E13E23100E28350 /* README.md in Sources */,
 				EE4DE0341E15274200837F1D /* SimpleTableViewController.swift in Sources */,
