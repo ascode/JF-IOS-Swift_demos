@@ -1,3 +1,4 @@
+<a name="restore" id="restore">&nbsp;</a>
 ## iOS IAP恢复
 2015-06-29 11:40 1251人阅读 评论(0) 收藏 举报
 分类： iOS_IAP应用内购买（7）  
