@@ -13,9 +13,9 @@
 ---
 ###包含日常编程中常用的任务： 
 1.[富文本的使用](/IOSDemos/Controller/FullTextDemoViewController.swift)  
-2.语音合成  
-3.播放本地音频和网络音频  
-4.模态/半透明模态窗口 
+2.[语音合成](/IOSDemos/Controller/SpeechSynthesizerDemoViewController.swift)  
+3.[播放本地音频和网络音频](/IOSDemos/Controller/PlayVoiceFormNetViewController.swift)  
+4.[模态/半透明模态窗口](/IOSDemos/Controller/ModalViewController.swift) 
 5.UITableView和TableViewCell的展开(UITableView的多种应用方式举例)  
 6.局部动画  
 7.帧动画  
