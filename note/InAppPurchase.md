@@ -10,7 +10,7 @@
 
 ### IAP商品建立时机的苹果官方规定  
 
-![](http://image.bgenius.cn/jinfei/github/IOSDemos/WX20170106-165806@2x.png)
+![](http://image.bgenius.cn/jinfei/github/IOSDemos/WX20170106165806.png)
 
 
 
