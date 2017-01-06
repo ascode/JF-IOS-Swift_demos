@@ -28,6 +28,7 @@
 1.[应用内购买](/note/InAppPurchase.md)(InApp Purchase)  
     * [iOS IAP恢复](/note/InAppPurchase.md#restore)  
     * [iOS In-App Purchase中涉及到的货币单位](/note/InAppPurchase.md#money)   
+    * [新App第一版上线IAP相关](/note/InAppPurchase.md#FirstAppVersion)   
 2.[各种framework](/note/framework.md)  
 
 ---
@@ -39,5 +40,10 @@
 ### 一些有趣的细节  
 * [设置tableview的滚动条偏移](/note/SomeDetails.md#tableviewscrollindicator)  
 * [让手机和pad都只支持竖屏](/note/SomeDetails.md#screenvertial)   
+* 去掉状态栏  
+
+### A&Q  
+1.为什么我放在UITableView里面的UIButton不能点击？
+
 
 如果您对哪方面的示例有需要，可以加qq群讨论：23592723，加群的时候说明是在github上这个项目中看到的信息。

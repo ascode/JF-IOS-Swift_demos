@@ -1,10 +1,23 @@
-<a name="restore" id="restore">&nbsp;</a>
-## iOS IAP恢复
-2015-06-29 11:40 1251人阅读 评论(0) 收藏 举报
-分类： iOS_IAP应用内购买（7）  
-//——2012-6-25日更新iap恢复
+<a name="FirstAppVersion" id="FirstAppVersion">&nbsp;</a>
+## 新App第一版上线IAP相关  
 
-看到很多童鞋说让Himi讲解如何恢复iap产品，其实博文已经给出了。这里再详细说下:
+### IAP测试的先决条件  
+新App第一版上线之前，需要对IAP进行测试。那么测试IAP需要具备什么前提呢？
+1.没有upload到itunes的APP是不可进行IAP测试的。
+2.第一版App发布前，因为苹果商店并没有对应App，所以沙箱测试员是不能参与测试的。这时候只有内测和外测两种测试方案。所以进行测试之前至少要发布一种测试方案。
+3.设定测试人员。如果是内测，那么必须设定内测人员，如果是外测，必须设定外测人员。
+4.设定好测试人员之后，不论是通过TestFlight还是直接连接XCode装机，如果需要测试IAP，都需要用对应的内测活着外测AppleID登陆iTunes Store活着App Store才能进行。
+
+### IAP商品建立时机的苹果官方规定  
+
+![](http://image.bgenius.cn/jinfei/github/IOSDemos/WX20170106-165806@2x.png)
+
+
+
+<a name="restore" id="restore">&nbsp;</a>
+## iOS IAP恢复 
+
+看到很多童鞋问如何恢复iap产品。这里详细说下:
 
 1.首先要监听交易过程：  
 // 监听购买结果
