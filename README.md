@@ -40,6 +40,8 @@
 ### 一些有趣的细节  
 * [设置tableview的滚动条偏移](/note/SomeDetails.md#tableviewscrollindicator)  
 * [让手机和pad都只支持竖屏](/note/SomeDetails.md#screenvertial)   
+* [控制UITextView中的文本行高](/note/SomeDetails.md#setLineHeightforUITextView)  
+* [iOS 代码实现获得应用的版本号(Version／Build)](/note/SomeDetails.md#getversionForApp)  
 * 去掉状态栏  
 
 ### A&Q  
