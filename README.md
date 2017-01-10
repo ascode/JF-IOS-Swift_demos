@@ -19,17 +19,19 @@
 5.UITableView和TableViewCell的展开(UITableView的多种应用方式举例)  
 6.局部动画  
 7.帧动画  
-8.[Tab和Drawer布局](/IOSDemos/ViewController.swift#test)
+8.[Tab和Drawer布局](/IOSDemos/ViewController.swift)  
 ...  
 
 
 ---
 ###笔记
-1.[应用内购买](/note/InAppPurchase.md)(InApp Purchase)  
+1.UI编程  
+    * [UITabBarController的使用](/note/UITabBarController.md)
+2.[应用内购买](/note/InAppPurchase.md)(InApp Purchase)  
     * [iOS IAP恢复](/note/InAppPurchase.md#restore)  
     * [iOS In-App Purchase中涉及到的货币单位](/note/InAppPurchase.md#money)   
     * [新App第一版上线IAP相关](/note/InAppPurchase.md#FirstAppVersion)   
-2.[各种framework](/note/framework.md)  
+3.[各种framework](/note/framework.md)  
 
 ---
 ### 提交到AppStore时候失败

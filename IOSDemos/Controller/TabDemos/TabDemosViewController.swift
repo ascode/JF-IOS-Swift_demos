@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabDemosViewController: UIViewController, TabAndDrawerDemosViewDelegate {
+class TabDemosViewController: UITabBarController, TabAndDrawerDemosViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -41,6 +41,7 @@
 		EE854F6A1E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F691E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift */; };
 		EE854F6C1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F6B1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift */; };
 		EE854F701E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F6F1E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift */; };
+		EE854F771E24F90E00D9BFF9 /* UITabBarController.md in Sources */ = {isa = PBXBuildFile; fileRef = EE854F761E24F90E00D9BFF9 /* UITabBarController.md */; };
 		EEBD7D711E12891C001C3FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7D701E12891C001C3FC6 /* AppDelegate.swift */; };
 		EEBD7D731E12891C001C3FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7D721E12891C001C3FC6 /* ViewController.swift */; };
 		EEBD7D761E12891C001C3FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7D741E12891C001C3FC6 /* Main.storyboard */; };
@@ -114,6 +115,7 @@
 		EE854F6B1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAndDrawerDemosLeft.swift; sourceTree = "<group>"; };
 		EE854F6F1E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAndDrawerDemosLeftViewController.swift; sourceTree = "<group>"; };
 		EE854F711E24EB1300D9BFF9 /* IOSDemos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSDemos-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE854F761E24F90E00D9BFF9 /* UITabBarController.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = UITabBarController.md; sourceTree = "<group>"; };
 		EEBD7D6D1E12891C001C3FC6 /* IOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBD7D701E12891C001C3FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBD7D721E12891C001C3FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		EE4DE0241E15141B00837F1D /* note */ = {
 			isa = PBXGroup;
 			children = (
+				EE854F751E24F8F300D9BFF9 /* UIProgramme */,
 				EE4DE04D1E16A81D00837F1D /* InAppPurchase.md */,
 				EE4DE04F1E16B21300837F1D /* framework.md */,
 				EE4633F31E1CDA85007D77C7 /* SubmitToAppStore.md */,
@@ -250,6 +253,14 @@
 			);
 			name = TabAndDrawerDemos;
 			path = TabDemos;
+			sourceTree = "<group>";
+		};
+		EE854F751E24F8F300D9BFF9 /* UIProgramme */ = {
+			isa = PBXGroup;
+			children = (
+				EE854F761E24F90E00D9BFF9 /* UITabBarController.md */,
+			);
+			path = UIProgramme;
 			sourceTree = "<group>";
 		};
 		EEBD7D641E12891C001C3FC6 = {
@@ -566,6 +577,7 @@
 				EE78A7971E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift in Sources */,
 				EE854F651E24D59600D9BFF9 /* TabDemosViewController.swift in Sources */,
 				EE4DE02D1E15250000837F1D /* UITableViewDemosDelegate.swift in Sources */,
+				EE854F771E24F90E00D9BFF9 /* UITabBarController.md in Sources */,
 				EE4DE0361E152AB000837F1D /* CommonTableViewController.swift in Sources */,
 				EE4DE0311E1525B600837F1D /* SimpleTableViewDelegate.swift in Sources */,
 				EE78A7991E138E270019BAF7 /* SpeechSynthesizerDemoViewController.swift in Sources */,

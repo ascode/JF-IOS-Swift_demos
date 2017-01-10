@@ -74,12 +74,36 @@ class ViewController: UIViewController, MenusViewDelegate {
             
         }
         if self.menuListData._menus[indexPath.row]._menuName! == "Tab和Drawer布局" {
-            //<a name="test" id="test"></a>
             
+            //a.初始化一个tabBar控制器
+            let tbC: UITabBarController = UITabBarController()
+            
+            //b.创建子控制器
+            let vc1: UIViewController = UIViewController()
+            vc1.view.backgroundColor = UIColor.gray
+            vc1.view.backgroundColor = UIColor.green
+            vc1.tabBarItem.title = "消息"
+            vc1.tabBarItem.image = #imageLiteral(resourceName: "ic-purchase")
+            vc1.tabBarItem.badgeValue = "123"
+            
+            let vc2: TabDemosViewController = TabDemosViewController()
+            vc2.view.backgroundColor = UIColor.brown
+            vc2.tabBarItem.title = "联系人"
+            vc2.tabBarItem.image = #imageLiteral(resourceName: "ic-about-us")
+            
+            
+            //c.添加子控制器到ITabBarController中
+            //c.1第一种方式
+//            tbC.addChildViewController(vc1)
+//            tbC.addChildViewController(vc2)
+            
+            //c.2第二种方式
+            tbC.viewControllers = [vc1, vc2]
+
             let leftDrawer: UIViewController = TabAndDrawerDemosLeftViewController()
             let tabDemosVC: TabDemosViewController = TabDemosViewController()
         
-            let drawerController: MMDrawerController = MMDrawerController(center: tabDemosVC, leftDrawerViewController: leftDrawer)
+            let drawerController: MMDrawerController = MMDrawerController(center: tbC, leftDrawerViewController: leftDrawer)
             drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureMode.all
             drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.all
             
