@@ -1,8 +1,8 @@
-# JF-IOS-Swift_demos
+# JF-IOS-Swift_demos  
 这是一个随着苹果发展持续更新的IOS编码示例集合和IOS开发笔记，帮助快速开发IOS Swift应用，您在编写IOS应用的时候可以直接从该项目中复制代码加快开发速度。  
 
 回忆：  
-在做IOS开发的岁月里，因为不仅仅是做IOS开发，等到某天从别的语言项目中转回来做IOS开发的时候，发现苹果的开发工具又升级了，swift也升级了。而为了解决项目中一个细节问题，需要无数次点击穿越项目的业务逻辑，然后去调试，费时费力。为了解决这个问题。我决定把常用的，开发任务不带有业务逻辑的整理成一个预研项目，并保持和苹果同步升级，以便自己和其他人方便的了解和学习苹果在IOS上的改变。
+在做IOS开发的岁月里，因为不仅仅是做IOS开发，等到某天从别的语言项目中转回来做IOS开发的时候，发现苹果的开发工具又升级了，swift也升级了。而为了解决项目中一个细节问题，需要无数次点击穿越项目的业务逻辑，然后去调试，费时费力。为了解决这个问题。我决定把常用的，开发任务不带有业务逻辑的整理成一个预研项目，并保持和苹果同步升级，以便自己和其他人方便的了解和学习苹果在IOS上的改变。  
 
 目标：  
 1.只需要点击2到5次就能定位到需要的功能界面  
@@ -24,9 +24,9 @@
 
 
 ---
-###笔记
+###笔记  
 1.UI编程  
-    * [UITabBarController的使用](/note/UITabBarController.md)
+    * [UITabBarController的使用](/note/UITabBarController.md)  
 2.[应用内购买](/note/InAppPurchase.md)(InApp Purchase)  
     * [iOS IAP恢复](/note/InAppPurchase.md#restore)  
     * [iOS In-App Purchase中涉及到的货币单位](/note/InAppPurchase.md#money)   
@@ -34,7 +34,7 @@
 3.[各种framework](/note/framework.md)  
 
 ---
-### 提交到AppStore时候失败
+### 提交到AppStore时候失败  
 * [iOS 打包上传-22421错误](/note/SubmitToAppStore.md)  
 * [Error：ERROR ITMS-90474: "Invalid Bundle. iPad Multitasking support requires these orientations:](/note/SubmitToAppStore.md)  
  
@@ -47,7 +47,7 @@
 * 去掉状态栏  
 
 ### A&Q  
-1.为什么我放在UITableView里面的UIButton不能点击？
+1.为什么我放在UITableView里面的UIButton不能点击？  
 
 
 如果您对哪方面的示例有需要，可以加qq群讨论：23592723，加群的时候说明是在github上这个项目中看到的信息。

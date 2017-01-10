@@ -58,3 +58,38 @@
         return true
     }
 
+### 三、重要说明
+
+#### 1.UITabBar 
+
+下方的工具条称为UITabBar ，如果UITabBarController有N个子控制器,那么UITabBar内部就会有N 个UITabBarButton作为子控件与之对应。
+
+注意：UITabBarButton在UITabBar中得位置是均分的，UITabBar的高度为49。
+
+在上面的程序中，UITabBarController有4个子控制器,所以UITabBar中有4个UITabBarButton，UITabBar的结构⼤大致如下图所示：
+![](http://image.bgenius.cn/jinfei/github/IOSDemos/072236159742491.png)  
+
+#### 2.UITabBarButton 
+
+UITabBarButton⾥面显⽰什么内容,由对应子控制器的tabBarItem属性来决定  
+
+    c1.tabBarItem.title=@"消息";  
+    c1.tabBarItem.image=[UIImage imageNamed:@"tab_recent_nor"];  
+![](http://image.bgenius.cn/jinfei/github/IOSDemos/072238405999340.png)   
+
+#### 3.有两种方式可以往UITabBarController中添加子控制器   
+
+（1）[tb addChildViewController:c1];  
+
+（2）tb.viewControllers=@[c1,c2,c3,c4];  
+
+注意：展示的顺序和添加的顺序一致，和导航控制器中不同，展现在眼前的是第一个添加的控制器对应的View。  
+
+
+
+
+
+
+
+
+
