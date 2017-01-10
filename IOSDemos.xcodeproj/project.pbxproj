@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E780634E5AFCB63D7CCA93A /* Pods_IOSDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340384A839AF358081485B6B /* Pods_IOSDemos.framework */; };
 		EE28BC5A1E13E23100E28350 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC591E13E23100E28350 /* README.md */; };
 		EE28BC5C1E13ED1600E28350 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC5B1E13ED1600E28350 /* ModalViewController.swift */; };
 		EE28BC5E1E13ED2C00E28350 /* ModalDemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BC5D1E13ED2C00E28350 /* ModalDemosView.swift */; };
@@ -35,6 +36,11 @@
 		EE78A79D1E13A2560019BAF7 /* PlayVoiceFormNetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A79C1E13A2560019BAF7 /* PlayVoiceFormNetViewDelegate.swift */; };
 		EE78A79F1E13A26A0019BAF7 /* PlayVoiceFormNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78A79E1E13A26A0019BAF7 /* PlayVoiceFormNetViewController.swift */; };
 		EE78A7A11E13CD400019BAF7 /* anjiexigongzhu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE78A7A01E13CD400019BAF7 /* anjiexigongzhu.mp3 */; };
+		EE854F651E24D59600D9BFF9 /* TabDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F641E24D59600D9BFF9 /* TabDemosViewController.swift */; };
+		EE854F681E24D5BD00D9BFF9 /* TabAndDrawerDemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F671E24D5BD00D9BFF9 /* TabAndDrawerDemosView.swift */; };
+		EE854F6A1E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F691E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift */; };
+		EE854F6C1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F6B1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift */; };
+		EE854F701E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854F6F1E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift */; };
 		EEBD7D711E12891C001C3FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7D701E12891C001C3FC6 /* AppDelegate.swift */; };
 		EEBD7D731E12891C001C3FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD7D721E12891C001C3FC6 /* ViewController.swift */; };
 		EEBD7D761E12891C001C3FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBD7D741E12891C001C3FC6 /* Main.storyboard */; };
@@ -71,6 +77,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BCBAFDA1356724861B7D4F9 /* Pods-IOSDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemos/Pods-IOSDemos.release.xcconfig"; sourceTree = "<group>"; };
+		1F98AEC77D3D65A28D96456E /* Pods-IOSDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemos/Pods-IOSDemos.debug.xcconfig"; sourceTree = "<group>"; };
+		340384A839AF358081485B6B /* Pods_IOSDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE28BC591E13E23100E28350 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EE28BC5B1E13ED1600E28350 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		EE28BC5D1E13ED2C00E28350 /* ModalDemosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalDemosView.swift; sourceTree = "<group>"; };
@@ -99,6 +108,12 @@
 		EE78A79C1E13A2560019BAF7 /* PlayVoiceFormNetViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVoiceFormNetViewDelegate.swift; sourceTree = "<group>"; };
 		EE78A79E1E13A26A0019BAF7 /* PlayVoiceFormNetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVoiceFormNetViewController.swift; sourceTree = "<group>"; };
 		EE78A7A01E13CD400019BAF7 /* anjiexigongzhu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = anjiexigongzhu.mp3; sourceTree = "<group>"; };
+		EE854F641E24D59600D9BFF9 /* TabDemosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabDemosViewController.swift; sourceTree = "<group>"; };
+		EE854F671E24D5BD00D9BFF9 /* TabAndDrawerDemosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAndDrawerDemosView.swift; sourceTree = "<group>"; };
+		EE854F691E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAndDrawerDemosViewDelegate.swift; sourceTree = "<group>"; };
+		EE854F6B1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAndDrawerDemosLeft.swift; sourceTree = "<group>"; };
+		EE854F6F1E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAndDrawerDemosLeftViewController.swift; sourceTree = "<group>"; };
+		EE854F711E24EB1300D9BFF9 /* IOSDemos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSDemos-Bridging-Header.h"; sourceTree = "<group>"; };
 		EEBD7D6D1E12891C001C3FC6 /* IOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBD7D701E12891C001C3FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBD7D721E12891C001C3FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E780634E5AFCB63D7CCA93A /* Pods_IOSDemos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +164,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C392D74E1FA315B07DF5F42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F98AEC77D3D65A28D96456E /* Pods-IOSDemos.debug.xcconfig */,
+				1BCBAFDA1356724861B7D4F9 /* Pods-IOSDemos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1B780682219E63E2E711DB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				340384A839AF358081485B6B /* Pods_IOSDemos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE28BC611E13EE3100E28350 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +232,26 @@
 			path = UITableViewDemos;
 			sourceTree = "<group>";
 		};
+		EE854F631E24D57D00D9BFF9 /* TabDemos */ = {
+			isa = PBXGroup;
+			children = (
+				EE854F641E24D59600D9BFF9 /* TabDemosViewController.swift */,
+				EE854F6F1E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift */,
+			);
+			path = TabDemos;
+			sourceTree = "<group>";
+		};
+		EE854F661E24D5AA00D9BFF9 /* TabAndDrawerDemos */ = {
+			isa = PBXGroup;
+			children = (
+				EE854F671E24D5BD00D9BFF9 /* TabAndDrawerDemosView.swift */,
+				EE854F691E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift */,
+				EE854F6B1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift */,
+			);
+			name = TabAndDrawerDemos;
+			path = TabDemos;
+			sourceTree = "<group>";
+		};
 		EEBD7D641E12891C001C3FC6 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +261,8 @@
 				EEBD7D871E12891D001C3FC6 /* IOSDemosTests */,
 				EEBD7D921E12891D001C3FC6 /* IOSDemosUITests */,
 				EEBD7D6E1E12891C001C3FC6 /* Products */,
+				6C392D74E1FA315B07DF5F42 /* Pods */,
+				E1B780682219E63E2E711DB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +290,7 @@
 				EEBD7D7C1E12891C001C3FC6 /* LaunchScreen.storyboard */,
 				EEBD7D7F1E12891C001C3FC6 /* Info.plist */,
 				EEBD7D771E12891C001C3FC6 /* IOSDemos.xcdatamodeld */,
+				EE854F711E24EB1300D9BFF9 /* IOSDemos-Bridging-Header.h */,
 			);
 			path = IOSDemos;
 			sourceTree = "<group>";
@@ -269,6 +325,7 @@
 		EEBD7DA41E1289F8001C3FC6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EE854F661E24D5AA00D9BFF9 /* TabAndDrawerDemos */,
 				EE4DE0291E15249600837F1D /* UITableViewDemos */,
 				EE28BC611E13EE3100E28350 /* Modals */,
 				EEBD7DA51E128A12001C3FC6 /* MenusView.swift */,
@@ -297,6 +354,7 @@
 		EEBD7DB01E1295BD001C3FC6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EE854F631E24D57D00D9BFF9 /* TabDemos */,
 				EE4DE0321E15272A00837F1D /* UITableViewDemos */,
 				EE28BC641E13F1D700E28350 /* Modals */,
 				EEBD7DB11E1295D4001C3FC6 /* FullTextDemoViewController.swift */,
@@ -315,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEBD7D981E12891D001C3FC6 /* Build configuration list for PBXNativeTarget "IOSDemos" */;
 			buildPhases = (
+				931CEB88B35C1C6E6AB07052 /* [CP] Check Pods Manifest.lock */,
 				EEBD7D691E12891C001C3FC6 /* Sources */,
 				EEBD7D6A1E12891C001C3FC6 /* Frameworks */,
 				EEBD7D6B1E12891C001C3FC6 /* Resources */,
+				E2B828754B0E910B8B09F6AC /* [CP] Embed Pods Frameworks */,
+				2B86A3F6F89E21F657D9C12E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,6 +438,7 @@
 					EEBD7D6C1E12891C001C3FC6 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 9449692GAK;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					EEBD7D831E12891D001C3FC6 = {
@@ -442,6 +504,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B86A3F6F89E21F657D9C12E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSDemos/Pods-IOSDemos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		931CEB88B35C1C6E6AB07052 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B828754B0E910B8B09F6AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSDemos/Pods-IOSDemos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEBD7D691E12891C001C3FC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -449,9 +559,12 @@
 			files = (
 				EE4DE04E1E16A81D00837F1D /* InAppPurchase.md in Sources */,
 				EE4DE03C1E15323600837F1D /* CommonTableCell.swift in Sources */,
+				EE854F6A1E24D5EE00D9BFF9 /* TabAndDrawerDemosViewDelegate.swift in Sources */,
+				EE854F6C1E24EA3000D9BFF9 /* TabAndDrawerDemosLeft.swift in Sources */,
 				EE78A7951E138DF70019BAF7 /* SpeechSynthesizerDemoView.swift in Sources */,
 				EEBD7DAB1E128AAE001C3FC6 /* Menu.swift in Sources */,
 				EE78A7971E138E070019BAF7 /* SpeechSynthesizerDemoDelegate.swift in Sources */,
+				EE854F651E24D59600D9BFF9 /* TabDemosViewController.swift in Sources */,
 				EE4DE02D1E15250000837F1D /* UITableViewDemosDelegate.swift in Sources */,
 				EE4DE0361E152AB000837F1D /* CommonTableViewController.swift in Sources */,
 				EE4DE0311E1525B600837F1D /* SimpleTableViewDelegate.swift in Sources */,
@@ -466,6 +579,7 @@
 				EE4DE02B1E1524AB00837F1D /* UITableViewDemos.swift in Sources */,
 				EE4DE0281E15243500837F1D /* UITableViewDemosViewController.swift in Sources */,
 				EE4DE02F1E1525A800837F1D /* SimpleTableView.swift in Sources */,
+				EE854F681E24D5BD00D9BFF9 /* TabAndDrawerDemosView.swift in Sources */,
 				EE78A79D1E13A2560019BAF7 /* PlayVoiceFormNetViewDelegate.swift in Sources */,
 				EEBD7D791E12891C001C3FC6 /* IOSDemos.xcdatamodeld in Sources */,
 				EE28BC5E1E13ED2C00E28350 /* ModalDemosView.swift in Sources */,
@@ -482,6 +596,7 @@
 				EE4DE0501E16B21300837F1D /* framework.md in Sources */,
 				EE28BC5C1E13ED1600E28350 /* ModalViewController.swift in Sources */,
 				EE28BC631E13EE4400E28350 /* ModalA.swift in Sources */,
+				EE854F701E24EA6100D9BFF9 /* TabAndDrawerDemosLeftViewController.swift in Sources */,
 				EEBD7DA91E128A83001C3FC6 /* DataForMenus.swift in Sources */,
 				EE4DE03A1E152AE800837F1D /* CommonTableViewDelegate.swift in Sources */,
 			);
@@ -633,26 +748,33 @@
 		};
 		EEBD7D991E12891D001C3FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F98AEC77D3D65A28D96456E /* Pods-IOSDemos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9449692GAK;
 				INFOPLIST_FILE = IOSDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bgenius.IOSDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSDemos/IOSDemos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EEBD7D9A1E12891D001C3FC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCBAFDA1356724861B7D4F9 /* Pods-IOSDemos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9449692GAK;
 				INFOPLIST_FILE = IOSDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bgenius.IOSDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSDemos/IOSDemos-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

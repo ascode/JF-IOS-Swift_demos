@@ -30,5 +30,9 @@
 		<key>text</key>
 		<string>帧动画</string>
 	</dict>
+	<dict>
+		<key>text</key>
+		<string>Tab和Drawer布局</string>
+	</dict>
 </array>
 </plist>

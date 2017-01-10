@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MMDrawerController
 
 class ViewController: UIViewController, MenusViewDelegate {
     
@@ -71,6 +72,21 @@ class ViewController: UIViewController, MenusViewDelegate {
         }
         if self.menuListData._menus[indexPath.row]._menuName! == "帧动画" {
             
+        }
+        if self.menuListData._menus[indexPath.row]._menuName! == "Tab和Drawer布局" {
+            //<a name="test" id="test"></a>
+            
+            let leftDrawer: UIViewController = TabAndDrawerDemosLeftViewController()
+            let tabDemosVC: TabDemosViewController = TabDemosViewController()
+        
+            let drawerController: MMDrawerController = MMDrawerController(center: tabDemosVC, leftDrawerViewController: leftDrawer)
+            drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureMode.all
+            drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.all
+            
+            
+            self.present(drawerController, animated: true, completion: {
+                
+            })
         }
     }
 

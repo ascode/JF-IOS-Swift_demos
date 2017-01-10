@@ -1,0 +1,40 @@
+PODS:
+  - Bugly (2.4.2)
+  - FastCoding (3.2.1)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - Reachability (3.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - Bugly
+  - FastCoding
+  - MMDrawerController (~> 0.5.7)
+  - Reachability
+  - SDWebImage (~> 3.8)
+  - Toast-Swift
+
+SPEC CHECKSUMS:
+  Bugly: b09cd3c7e54048a0e079be88a7a99610f14eab8f
+  FastCoding: ed46c83ba23d048aafa0251972a1e1fc1cfc58ed
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: 7b39793b6274d6eea3dbc5781176879a0b7ece45
+
+COCOAPODS: 1.1.1
