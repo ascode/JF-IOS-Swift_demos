@@ -28,7 +28,7 @@
         //a.初始化一个tabBar控制器
         let tbC: UITabBarController = UITabBarController()
         //设置控制器为Window的根控制器
-        self.window.rootViewController=tb;
+        self.window.rootViewController = tbC;
     
         //b.创建子控制器
         let vc1: UIViewController = UIViewController()

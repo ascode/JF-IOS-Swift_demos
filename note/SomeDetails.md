@@ -47,3 +47,13 @@ iOS的版本号，一个叫做Version，一个叫做Build，这两个值都可�
 
 获得build号：  
 [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]  
+
+
+
+<a name="aboutSize" id="aboutSize">&nbsp;</a>
+### IOS中的一些尺寸  
+UINavigationBar: 高度默认 44  
+UITabBar: 高度默认 49  
+状态栏的高度： UIApplication.shared.statusBarFrame.height  
+
+
