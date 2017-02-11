@@ -57,3 +57,49 @@ UITabBar: 高度默认 49
 状态栏的高度： UIApplication.shared.statusBarFrame.height  
 
 
+<a name="aboutRate" id="aboutRate">&nbsp;</a>
+### iOS应用实现评论功能的两种方法  
+
+#### 第一种:  
+在iOS6.0前跳转到AppStore评分一般是直接跳转到AppStore评分  
+NSString *evaluateString = [NSString stringWithFormat:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=67787803"];  
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:evaluateString]];  
+这种方法实现了跳转到AppStore评分功能。  
+
+#### 第二种：  
+在iOS6.0，Apple增加了一个心得功能，当用户需要给APP评分时候，不再跳转到AppStore了，可以在应用内实现打开appstore，苹果提供了一个框架StoreKit.framework,实现步骤如下:  
+1:导入StoreKit.framework,在需要跳转的控制器里面添加头文件#import  
+2:实现代理SKStoreProductViewControllerDelegate  
+
+//初始化控制器  
+let rateC: SKStoreProductViewController = SKStoreProductViewController()  
+//设置代理请求为当前控制器本身  
+rateC.delegate = self  
+//加载一个新的视图展示  
+rateC.loadProduct(withParameters: [SKStoreProductParameterITunesItemIdentifier: "1163595775"], completionBlock: { (result: Bool, err: Error?) in  
+self.present(rateC, animated: true, completion: {  
+  
+})  
+})  
+
+
+//取消按钮监听方法    
+func productViewControllerDidFinish(_ viewController: SKStoreProductViewController) {  
+print("**********productViewControllerDidFinish")  
+viewController.dismiss(animated: true) {   
+  
+}  
+}   
+第二种种方法实现了应用内置AppStore评分功能。    
+
+
+
+
+
+
+
+
+
+
+
+

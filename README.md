@@ -47,6 +47,7 @@
 * [控制UITextView中的文本行高](/note/SomeDetails.md#setLineHeightforUITextView)  
 * [iOS 代码实现获得应用的版本号(Version／Build)](/note/SomeDetails.md#getversionForApp)  
 * [IOS中的一些尺寸](/note/SomeDetails.md#aboutSize)  
+* [iOS应用实现评论功能的两种方法](/note/SomeDetails.md#aboutRate)
 * 去掉状态栏  
 
 ### A&Q  
